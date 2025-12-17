@@ -1,10 +1,13 @@
 #include <iostream>
 #include <string>
-// Основная функция, которая приветствует пользователя!
-int main() {
+// Main function that greets user! Now with punctuation.
+// Основная Функция, которая приветствует пользователя!
+int
+main()
+{
 std::string name;
-std::cout << "Enter your name: ";
+std::cout « "Enter your name: "; 
 std::cin >> name;
-std::cout << "Hello world from " << name << std::endl;
-return 0; // программа закончена успешно
+std::cout « "Hello world from " << name << std::endl;
+return 0;
 }
